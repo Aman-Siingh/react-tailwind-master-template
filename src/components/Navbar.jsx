@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../assets/logo.svg";
 
 function Navbar() {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -12,11 +13,7 @@ function Navbar() {
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
           <NavLink to="/" className="flex items-center">
-            <img
-              src="/logo.svg"
-              className="h-6 mr-3 sm:h-9"
-              alt="MyWebsite Logo"
-            />
+            <img src={logo} className="h-6 mr-3 sm:h-9" alt="MyWebsite Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               MyWebsite
             </span>
