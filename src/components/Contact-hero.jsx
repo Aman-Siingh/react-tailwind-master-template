@@ -45,4 +45,4 @@ const Contacthero = () => {
   );
 };
 
-export default Contact;
+export default Contacthero;
