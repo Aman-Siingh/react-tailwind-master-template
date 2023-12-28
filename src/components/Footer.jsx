@@ -27,6 +27,11 @@ function Footer() {
               About
             </Link>
           </li>
+          <li>
+            <Link to="/contact" className="mr-4 hover:underline md:mr-6">
+              Contact
+            </Link>
+          </li>
         </ul>
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2021-2022{" "}
